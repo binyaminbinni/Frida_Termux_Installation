@@ -7,7 +7,7 @@ apt update && apt upgrade && apt install build-essential python python-pip git c
 ```
 ## Installing frida
 ```
-cd $TMPDIR && curl -fsSL https://raw.githubusercontent.com/Alexjr2/Frida_Termux_Installation/main/frida-python.sh | bash && cd
+cd $TMPDIR && curl -fsSL https://raw.githubusercontent.com/binyaminbinni/Frida_Termux_Installation/main/frida-python.sh | bash && cd
 ```
 ## Installing dependencies
 ```
