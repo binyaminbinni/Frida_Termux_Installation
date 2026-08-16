@@ -27,8 +27,8 @@ esac
 cd $TMPDIR
 
 # Update and install required packages
-apt update && pkg upgrade -y
-pkg i -y python git curl && pip install -U setuptools wheel
+apt update && apt upgrade -y
+apt install -y python git curl && pip install -U setuptools wheel
 
 # Fetch latest Frida version
 FRIDA_VERSION=$(curl -s https://api.github.com/repos/frida/frida/releases/latest | grep -oP '"tag_name":\s*"\K[^"]+')
